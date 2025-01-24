@@ -1,4 +1,5 @@
 #!/usr/bin/make -f
 
+# Include debhelper to simplify rules
 %:
-	dh $@
+	dh $@ --builddirectory=build
