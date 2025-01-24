@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+# Include debhelper to simplify rules
+%:
+	dh $@ --builddirectory=build
+
+binary-post:
+	mkdir -p build
+	mv ../*.deb ../*.dsc ../*.tar.gz ../*.changes ../*.buildinfo build/
