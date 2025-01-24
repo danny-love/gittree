@@ -1,14 +1,11 @@
-Source: gittree
+Package: gittree
+Version: 0.1-1
+Architecture: all
+Maintainer: Danny Love <dannylovehaus@gmail.com>
+Installed-Size: 13
 Section: utils
 Priority: optional
-Maintainer: Danny Love <dannylovehaus@gmail.com>
-Build-Depends: debhelper-compat (= 12), python3
-Standards-Version: 4.6.0
 Homepage: https://github.com/danny-love/gittree
-
-Package: gittree
-Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
 Description: A utility to display and query Git repositories
  This is a Python script that prints a tree-like view of files in a Git
  repository, filters based on patterns, and displays file contents.
